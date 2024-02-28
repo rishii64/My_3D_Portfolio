@@ -14,7 +14,6 @@ import {
     pricewise,
     react,
     redux,
-    snapgram,
     tailwindcss,
     blog,
     notes
