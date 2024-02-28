@@ -34,7 +34,7 @@ const renderContext = {
     4: (
         <InfoBox text="Need a project done or looking for a dev? I'm just a keystroke away"
             link="/contact"
-            btnText="Leat's talk" />
+            btnText="Let's talk" />
     )
 }
 
