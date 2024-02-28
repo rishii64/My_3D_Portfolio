@@ -26,7 +26,8 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
-import tourism from './tourism.png'
+import blog from './blog.svg'
+import notes from './notes.svg'
 
 export {
     css,
@@ -57,5 +58,6 @@ export {
     contact,
     soundon,
     soundoff,
-    tourism
+    blog,
+    notes
 }

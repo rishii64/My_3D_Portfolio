@@ -1,8 +1,7 @@
-// import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
-    car,
     contact,
     css,
+    estate,
     express,
     git,
     github,
@@ -17,8 +16,8 @@ import {
     redux,
     snapgram,
     tailwindcss,
-    threads,
-    tourism
+    blog,
+    notes
 } from "../assets/icons";
 
 export const skills = [
@@ -159,46 +158,31 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: tourism,
+        iconUrl: estate,
         theme: 'btn-back-red',
         name: 'The India Tourism',
         description: "A tourism website showcasing the best possible ways to entertain yourself, embarking on a virtual odyssey through the enchanting landscapes, rich heritage, and vibrant culture of India.",
         link: 'https://sm-india-tourism.netlify.app/',
     },
     {
-        iconUrl: threads,
-        theme: 'btn-back-green',
+        iconUrl: pricewise,
+        theme: 'btn-back-blue',
         name: 'uShop E-commerce Website',
         description: 'A modern, full-fledged e-commerce website with proper functionalities for users, device- responsive and updated with chic products meticulously built on latest technologies',
         link: 'https://sm-ecomm.netlify.app/',
     },
     {
-        iconUrl: car,
-        theme: 'btn-back-blue',
+        iconUrl: blog,
+        theme: 'btn-back-green',
         name: 'The Siren Blog App',
         description: 'A full fledge react blog-web-application which presents various blogs ondifferent categories. It is visually appealing and mobile-responsive as well.',
         link: 'https://sm-blog.netlify.app/',
     },
     {
-        iconUrl: snapgram,
+        iconUrl: notes,
         theme: 'btn-back-pink',
         name: 'Todo Notes Web-App',
         description: 'This project allows user to note their day-to-day activities as notes which will help in tracking his/her completed or pending tasks.',
         link: 'https://rishii64.github.io/EA25-JS_ToDo-App_Project/',
     },
-    
-    // {
-    //     iconUrl: estate,
-    //     theme: 'btn-back-black',
-    //     name: 'Real-Estate Application',
-    //     description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-    //     link: 'https://github.com/adrianhajdin/projects_realestate',
-    // },
-    // {
-    //     iconUrl: summiz,
-    //     theme: 'btn-back-yellow',
-    //     name: 'AI Summarizer Application',
-    //     description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-    //     link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    // }
 ];
