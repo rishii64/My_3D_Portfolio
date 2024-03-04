@@ -2,9 +2,9 @@ import emailjs from "@emailjs/browser";
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useRef, useState } from "react";
 
-import Fox  from "../models/Fox";
+import Fox from "../models/Fox";
 import useAlert from "../hooks/useAlert";
-import Alert  from "../components/Alert";
+import Alert from "../components/Alert";
 import Loader from "../components/Loader";
 
 const Contact = () => {
@@ -26,38 +26,39 @@ const Contact = () => {
     setLoading(true);
     setCurrentAnimation("hit");
 
-    emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: "Saptarsi Mitra",
-          from_email: form.email,
-          to_email: "saptarsismmitra@gmail.com",
-          message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-      )
-      .then(
-        () => {
-          setLoading(false);
-          showAlert({
-            show: true,
-            text: "Thank you for your message 😃",
-            type: "success",
-          });
+    emailjs.send(
+      // import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+      "service_jmh1nf5",
+      // import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+      "template_a5ijrlb",
+      {
+        from_name: form.name,
+        to_name: "Saptarsi Mitra",
+        from_email: form.email,
+        to_email: "saptarsismmitra@gmail.com",
+        message: form.message,
+      },
+      // import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+      "agXHKLQ0a0lqETRkF",
+    )
+      .then(() => {
+        setLoading(false);
+        showAlert({
+          show: true,
+          text: "Thank you for your message 😃",
+          type: "success",
+        });
 
-          setTimeout(() => {
-            hideAlert(false);
-            setCurrentAnimation("idle");
-            setForm({
-              name: "",
-              email: "",
-              message: "",
-            });
-          }, [3000]);
-        },
+        setTimeout(() => {
+          hideAlert(false);
+          setCurrentAnimation("idle");
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        }, [3000]);
+      },
         (error) => {
           setLoading(false);
           console.error(error);
