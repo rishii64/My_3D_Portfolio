@@ -19,8 +19,6 @@ const Projects = () => {
         </p>
       </div>
 
-      {/* <hr className='border-slate-300 my-10' /> */}
-
       <div className='flex flex-wrap my-20 gap-16'>
         {
           projects.map((project) => (
