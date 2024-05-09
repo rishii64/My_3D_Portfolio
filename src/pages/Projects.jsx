@@ -14,11 +14,12 @@ const Projects = () => {
         <p className='text-slate-500 mt-2 leading-relaxed'>
           Welcome to the Projects section, where creativity meets innovation and where ideas take shape into tangible solutions. This space showcases a curated selection of my endeavors, each representing a journey of exploration, problem-solving, and craftsmanship. From software applications to design prototypes, these projects are more than just artifacts; they are a reflection of my passion for creating meaningful experiences and making a positive impact.
         </p>
-
         <p>
           Through these projects, I aim to demonstrate not only my technical skills but also my ability to conceptualize and execute ideas from inception to completion. Each project embodies a unique set of challenges and opportunities, and in navigating through them, I've honed my ability to adapt, collaborate, and iterate towards achieving excellence.
         </p>
       </div>
+
+      {/* <hr className='border-slate-300 my-10' /> */}
 
       <div className='flex flex-wrap my-20 gap-16'>
         {
@@ -44,7 +45,7 @@ const Projects = () => {
         }
       </div>
 
-      <hr className='border-slate-200' />
+      <hr className='border-slate-300' />
       <CTA />
 
     </section>

@@ -174,7 +174,7 @@ export const projects = [
         iconUrl: blog,
         theme: 'btn-back-green',
         name: 'The Siren Blog App',
-        description: 'A full fledge react blog-web-application which presents various blogs ondifferent categories. It is visually appealing and mobile-responsive as well.',
+        description: 'A blog web-application which presents various blogs based on categories. It is visually appealing and mobile-responsive as well.',
         link: 'https://sm-blog.netlify.app/',
     },
     {
