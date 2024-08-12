@@ -19,6 +19,8 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import blog from './blog.svg'
 import notes from './notes.svg'
+import mackinlay from './mackinlay.png'
+import prepbytes from './prepbytes.png'
 
 export {
     css,
@@ -41,5 +43,7 @@ export {
     soundon,
     soundoff,
     blog,
-    notes
+    notes,
+    mackinlay,
+    prepbytes
 }
