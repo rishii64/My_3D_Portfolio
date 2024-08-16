@@ -33,7 +33,7 @@ const About = () => {
           <h3 className='subhead-text'>Work Experience.</h3>
           <div className='mt-5 flex flex-col gap-3 text-slate-500'>
             <p>
-            I have collaborated with few companies, enhancing my skills and working alongside talented professionals. Here's a summary of my experience:
+              I have collaborated with few companies, enhancing my skills and working alongside talented professionals. Here's a summary of my experience:
             </p>
           </div>
 

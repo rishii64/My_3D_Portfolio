@@ -86,7 +86,7 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "Full stack Developer",
+        title: "Full Stack Developer",
         company_name: "Mackinlay Enterprise",
         icon: mackinlay,
         iconBg: "#a2d2ff",
@@ -99,7 +99,7 @@ export const experiences = [
         ],
     },
     {
-        title: "Full stack Developer",
+        title: "Full Stack Developer",
         company_name: "Prepbytes",
         icon: prepbytes,
         iconBg: "#a2d2ff",
@@ -132,6 +132,20 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: estate,
+        theme: 'btn-back-yellow',
+        name: 'HRConnect Pro',
+        description: "An HR Management software for transforming HR management into seamless & efficient experience, leveraging cutting-edge technologies and optimizing every aspects of HR processes from recruitment till onboarding.",
+        link: 'https://mackinlay-hrconnectweb.vercel.app/',
+    },
+    {
+        iconUrl: estate,
+        theme: 'btn-back-green',
+        name: 'Mackinlay Website',
+        description: "Featuring a visually appealing design with a focus on modern aesthetics and user experience. Key strengths include responsive layouts for cross-device compatibility, intuitive navigation, and high-quality visuals that effectively convey the brand's message. It also performs efficiently, offering quick load times for a positive user experience.",
+        link: 'https://mackinley-officialweb.vercel.app/',
+    },
     {
         iconUrl: estate,
         theme: 'btn-back-red',
